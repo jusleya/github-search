@@ -1,0 +1,24 @@
+#search-bar-component .btn {
+  background-color: #ac53f2;
+  border: none;
+  color: white;
+  height: 50px; }
+
+#search-bar-component input {
+  color: #5c5c5c;
+  box-shadow: none;
+  font-size: 20px;
+  height: 50px;
+  width: 100%; }
+
+#search-bar-component .input::placeholder {
+  color: rgba(0, 0, 0, 0.38); }
+
+#search-bar-component input:-ms-input-placeholder {
+  color: rgba(0, 0, 0, 0.38); }
+
+#search-bar-component input::-ms-input-placeholder {
+  color: rgba(0, 0, 0, 0.38); }
+
+#search-bar-component .size-field {
+  width: 100%; }

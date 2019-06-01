@@ -1,0 +1,26 @@
+@import 'assets/css/variables.scss';
+@import 'bulma/bulma';
+
+#title-component {
+  h1 {
+    color: #000;
+    font-family: $familySecond;
+    font-size: 60px;
+  }
+  span {
+    font-size: 60px;
+    font-style: italic;
+    font-weight: 200;
+  }
+}
+
+@include touch {
+  #title-component {
+    h1 {
+      font-size: 35px;
+    }
+    span {
+      font-size: 35px;
+    }
+  }
+}

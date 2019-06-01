@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:200,400&display=swap');
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+@import "assets/css/variables.scss";
+@import "bulma/bulma";
+
+// Esse arquivo é para declaração de atributos que serão utilizados em todas as páginas...
+// O CSS de cada página está em seu respectivo component ou view!
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: white;
+}
+
+.main {
+  min-height: calc(100vh);
+}
+
+* {
+  font-family: $familyPrimary;
+  font-size: 16px;
+}
+
+@include tablet-only {
+}
+
+@include mobile {
+}
