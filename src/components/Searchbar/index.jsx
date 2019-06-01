@@ -1,5 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
+
+import icon from "./img/search-icon.svg";
 import "./css/style.css";
 
 const SearchBar = props => {
@@ -19,7 +21,7 @@ const SearchBar = props => {
           </div>
           <div className="control">
             <button type="submit" className="button btn">
-              <i className="material-icons">search</i>
+              <img src={icon} alt=""/>
             </button>
           </div>
         </div>

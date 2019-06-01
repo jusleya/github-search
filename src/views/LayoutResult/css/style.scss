@@ -12,6 +12,27 @@
     font-style: italic;
     font-weight: 200;
   }
+
+  .center {
+    text-align: center;
+  }
+  .icon {
+    margin-right: 7px;
+    vertical-align: -6px;
+  }
+  .img {
+    min-width: 280px;
+  }
+  .info {
+    color: $grey;
+    font-size: 20px;
+  }
+  .margin {
+    margin-bottom: 15px;
+  }
+  .name {
+    font-size: 35px;
+  }
 }
 
 @include touch {

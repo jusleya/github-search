@@ -6966,6 +6966,26 @@ label.panel-block {
   font-style: italic;
   font-weight: 200; }
 
+#result-view .center {
+  text-align: center; }
+
+#result-view .icon {
+  margin-right: 7px;
+  vertical-align: -6px; }
+
+#result-view .img {
+  min-width: 280px; }
+
+#result-view .info {
+  color: #5c5c5c;
+  font-size: 20px; }
+
+#result-view .margin {
+  margin-bottom: 15px; }
+
+#result-view .name {
+  font-size: 35px; }
+
 @media screen and (max-width: 1023px) {
   #result-view h1 {
     font-size: 35px; }

@@ -6961,7 +6961,8 @@ label.panel-block {
 body {
   margin: 0;
   padding: 0;
-  background-color: white; }
+  background-color: white;
+  color: #000; }
 
 .main {
   min-height: calc(100vh); }

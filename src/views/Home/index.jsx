@@ -14,7 +14,7 @@ class Home extends Component {
               <div className="column is-3" />
               <div className="column is-6 has-text-centered">
                 <h1>
-                  Github <span>Search</span>
+                  Github<span> Search</span>
                 </h1>
               </div>
               <div className="column is-3" />
