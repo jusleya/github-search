@@ -1,9 +1,8 @@
 import React, { Component } from "react";
 
-import Title from "../../components/Title";
+import SearchBar from "../../components/Searchbar";
 
 import "./css/style.css";
-import SearchBar from "../../components/Searchbar";
 
 class Home extends Component {
   render() {
@@ -14,7 +13,9 @@ class Home extends Component {
             <div className="columns is-centered">
               <div className="column is-3" />
               <div className="column is-6 has-text-centered">
-                <Title />
+                <h1>
+                  Github <span>Search</span>
+                </h1>
               </div>
               <div className="column is-3" />
             </div>

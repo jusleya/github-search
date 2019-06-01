@@ -6955,3 +6955,19 @@ label.panel-block {
 .footer {
   background-color: #fafafa;
   padding: 3rem 1.5rem 6rem; }
+
+#home-view h1 {
+  color: #000;
+  font-family: monaco, Consolas, "Lucida Console", monospace;
+  font-size: 60px; }
+
+#home-view span {
+  font-size: 60px;
+  font-style: italic;
+  font-weight: 200; }
+
+@media screen and (max-width: 1023px) {
+  #home-view h1 {
+    font-size: 35px; }
+  #home-view span {
+    font-size: 35px; } }
