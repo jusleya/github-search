@@ -5,6 +5,28 @@ import SearchBar from "../../components/Searchbar";
 import "./css/style.css";
 
 class Home extends Component {
+  constructor(props) {
+    super(props);
+
+    this.state = {
+      username: ""
+    }
+  }
+
+  componentDidMount() {
+    document.title = "Início";
+  }
+
+  handleFormChange = e => {
+    const { name, value } = e.target;
+    this.setState({ [name]: value });
+  };
+
+  handleSubmit = () => {
+    localStorage.setItem("username", this.state.username);
+    this.props.history.push("/resultado");
+  }
+
   render() {
     return (
       <div id="home-view">
@@ -21,7 +43,7 @@ class Home extends Component {
             </div>
             <div className="columns is-centered">
               <div className="column is-8">
-                <SearchBar />
+                <SearchBar placeholder="Pesquise por nome de usuário" value={this.state.username} onChange={this.handleFormChange} onSubmit={this.handleSubmit} />
               </div>
             </div>
           </div>

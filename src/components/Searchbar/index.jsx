@@ -14,7 +14,7 @@ const SearchBar = props => {
               className="input"
               type="text"
               placeholder={props.placeholder}
-              name="searchBar"
+              name="username"
               onChange={props.onChange}
               value={props.value}
             />
