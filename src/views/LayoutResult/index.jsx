@@ -87,7 +87,12 @@ class LayoutResult extends Component {
         let star = this.state.star + repos_res[i].stargazers_count;
         this.setState({ star });
       }
+      arr_repos.sort(function(a,b) {
+        // return a.stargazers_count < b.stargazers_count ? -1 : a.stargazers_count > b.stargazers_count ? 1 : 0;
+        return a.stargazers_count > b.stargazers_count ? -1 : a.stargazers_count < b.stargazers_count ? 1 : 0;
+      });
       this.setState({ repos_list: arr_repos });
+      console.log(arr_repos);
       this.setState({ notFound: false });
     })
     .catch(error => {
