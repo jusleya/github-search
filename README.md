@@ -8,7 +8,7 @@ Existem três pastas principais no projeto:
 - components, encontra-se os components que são utilizados pelos arquivos;
 - views, as telas do projeto.
 
-Cada código presente no components e na views possui uma pasta com nome principal de sua função (por exemplo, Home, como página inicial). Dentro dessas pastas, é possível encontrar um arquivo index.jsx e, caso seja necessário, uma pasta para arquivos css e uma pasta para imagens que fossem ser utilizados somente por eles.
+Cada código presente no components e na views possui uma pasta com nome principal de sua função (por exemplo, Home, como página inicial). Dentro dessas pastas, é possível encontrar um arquivo index.jsx. Caso seja necessário, uma pasta para arquivos css e uma pasta para imagens que fossem ser utilizados somente por eles.
 
 
 ## Organização
