@@ -1,5 +1,5 @@
 ## Solução
-Este projeto é equivalente ao teste para vaga de Front-end da empresa Concrete. Foi proposta a implementação de uma aplicação client-side, que faça uma consulta a API do GitHub e mostre os repositórios de um determinado usuário.
+Este projeto é referente ao teste para vaga de Front-end da empresa Concrete. Foi proposta a implementação de uma aplicação client-side, que faça uma consulta a API do GitHub e mostre os repositórios de um determinado usuário.
 
 A implementação do projeto teve o uso do ReactJs, Bulma, Scss e HTML. Foi utilizado o NPM e YARN para execução e instalação de bibliotecas necessárias.
 
