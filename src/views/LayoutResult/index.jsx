@@ -61,6 +61,7 @@ class LayoutResult extends Component {
       else this.setState({ company: "" });
       this.setState({ repos: response.data.public_repos });
       this.setState({ followers: response.data.followers });
+      this.setState({ notFound: false });
     })
     .catch(error => {
       this.setState({ notFound: true });
@@ -87,6 +88,7 @@ class LayoutResult extends Component {
         this.setState({ star });
       }
       this.setState({ repos_list: arr_repos });
+      this.setState({ notFound: false });
     })
     .catch(error => {
       this.setState({ notFound: true });
