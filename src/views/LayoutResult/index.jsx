@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import axios from "axios";
 
+import LayoutNotFound from '../LayoutNotFound';
 import SearchBar from '../../components/Searchbar';
 
 import followers from "./img/followers-icon.svg";
@@ -9,7 +10,6 @@ import organization from "./img/organization-icon.svg";
 import repositorie from "./img/repositorie-icon.svg";
 import star from "./img/star-icon.svg";
 import "./css/style.css";
-import LayoutNotFound from '../LayoutNotFound';
 
 class LayoutResult extends Component {
   constructor(props) {
