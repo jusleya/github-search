@@ -22,7 +22,8 @@ class Home extends Component {
     this.setState({ [name]: value });
   };
 
-  handleSubmit = () => {
+  handleSubmit = async (e) => {
+    e.preventDefault(e);
     localStorage.setItem("username", this.state.username);
     this.props.history.push("/resultado");
   }

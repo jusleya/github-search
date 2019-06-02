@@ -6956,64 +6956,6 @@ label.panel-block {
   background-color: #fafafa;
   padding: 3rem 1.5rem 6rem; }
 
-#result-view h1 {
-  color: #000;
-  font-family: monaco, Consolas, "Lucida Console", monospace;
-  font-size: 40px; }
-
-#result-view span {
-  font-size: 40px;
-  font-style: italic;
-  font-weight: 200; }
-
-#result-view .center {
-  text-align: center; }
-
-#result-view .icon {
-  margin-right: 7px;
-  vertical-align: -4px; }
-
-#result-view .img {
-  max-width: 280px; }
-
-#result-view .info {
-  color: #5c5c5c;
-  font-size: 20px; }
-
-#result-view .is-loading-custom {
-  margin: 0 auto;
-  -webkit-animation: spinAround 500ms infinite linear;
-  animation: spinAround 500ms infinite linear;
-  border: 2px solid #ac53f2;
-  border-radius: 290486px;
-  border-right-color: transparent;
-  border-top-color: transparent;
-  content: "";
-  display: block;
-  height: 1.5em;
-  position: relative;
-  width: 1.5em; }
-
-#result-view .margin {
-  margin-bottom: 15px; }
-
-#result-view .name {
-  font-size: 35px; }
-
-#result-view .repos-name {
+#not-found-view p {
   color: #ac53f2;
-  font-size: 35px; }
-
-#result-view .repos-description {
-  color: #000;
-  font-size: 20px; }
-
-@media screen and (max-width: 1023px) {
-  #result-view h1 {
-    font-size: 35px; }
-  #result-view span {
-    font-size: 35px; }
-  #result-view .repos-name {
-    font-size: 30px; }
-  #result-view .repos-description {
-    font-size: 15px; } }
+  font-size: 40px; }

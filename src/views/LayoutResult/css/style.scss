@@ -18,20 +18,42 @@
   }
   .icon {
     margin-right: 7px;
-    vertical-align: -6px;
+    vertical-align: -4px;
   }
   .img {
-    min-width: 280px;
+    max-width: 280px;
   }
   .info {
     color: $grey;
     font-size: 20px;
+  }
+  .is-loading-custom {
+    margin: 0 auto;
+    -webkit-animation: spinAround 500ms infinite linear;
+    animation: spinAround 500ms infinite linear;
+    border: 2px solid $purple;
+    border-radius: 290486px;
+    border-right-color: transparent;
+    border-top-color: transparent;
+    content: "";
+    display: block;
+    height: 1.5em;
+    position: relative;
+    width: 1.5em;
   }
   .margin {
     margin-bottom: 15px;
   }
   .name {
     font-size: 35px;
+  }
+  .repos-name {
+    color: $purple;
+    font-size: 35px;
+  }
+  .repos-description {
+    color: #000;
+    font-size: 20px;
   }
 }
 
@@ -42,6 +64,12 @@
     }
     span {
       font-size: 35px;
+    }
+    .repos-name {
+      font-size: 30px;
+    }
+    .repos-description {
+      font-size: 15px;
     }
   }
 }

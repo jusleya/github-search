@@ -1,0 +1,9 @@
+@import "assets/css/variables.scss";
+@import "bulma/bulma";
+
+#not-found-view {
+  p {
+    color: $purple;
+    font-size: 40px;
+  }
+}
